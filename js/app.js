@@ -62,8 +62,7 @@ starStyle.left =`${randomX}px`;
 starStyle.top=`${randomY}px`;
 starStyle.borderRadius = "50%"
 starStyle.transform = `scale(${randomScale})`;
-
-   starStyle.boxShadow = `0px 0px 20px 3px ${hexColor}`
+starStyle.backgroundColor = hexColor;
 
 
   }
